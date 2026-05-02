@@ -3,7 +3,7 @@ builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
-startCommand = "trade --logfile /freqtrade/user_data/logs/freqtrade.log --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite --config /freqtrade/user_data/config.json --strategy EMA_RSI_Strategy"
+startCommand = "freqtrade trade --logfile /freqtrade/user_data/logs/freqtrade.log --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite --config /freqtrade/user_data/config.json --strategy EMA_RSI_Strategy"
 healthcheckPath = "/api/v1/ping"
 healthcheckTimeout = 30
 restartPolicyType = "ON_FAILURE"

@@ -9,7 +9,7 @@
   "cancel_open_orders_on_exit": true,
 
   "exchange": {
-    "name": "binance",
+    "name": "bybit",
     "key": "",
     "secret": "",
     "ccxt_config": {},
@@ -23,7 +23,8 @@
     "TRX/USDT"
   ],
   "pair_blacklist": [
-    "BNB/USDT"
+    "BNB/USDT",
+    "BIT/USDT"
   ],
 
   "stoploss": -0.03,
